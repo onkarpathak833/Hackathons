@@ -1,6 +1,9 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
+/*
+phone numbers in US are written as (xxx) yyy-zzzz or xxx-yyy-zzzz
+find the correct phone number from given ASCII string. find images for problem statements in this branch.
+*/
 public class CodingChallenge2 {
 	
 	static String extractDigits(String input, int noOfDigits){
