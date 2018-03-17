@@ -5,7 +5,12 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+/*
+problem statement :  given an array of integer, represent array of integers in range format
+e.g. if array input is -3,-2,-1,5,6,7,9,11,12,13,15,16
+output should be -3--1,5-7,9,11-13,15,16
+there should be consecutive 3 integers for it to become a range.
+*/
 public class CodingChallenge1 {
 
 	public static String solution(int[] array){
